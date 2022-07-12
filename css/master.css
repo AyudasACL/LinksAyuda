@@ -1,11 +1,66 @@
-body{
+body {
   height: 100%;
 }
 
-#bg{
-    background-image: url('../img/a.jpg');
-    height: 100%
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#bg {
+  background-image: url("../img/a.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-logo {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav-opciones {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+h3 {
+  margin-left: 20%;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cuerpo {
+  width: 50%;
+  background-color: rgb(38, 74, 122, 0.8);
+  border-style: solid;
+  border-radius: 50px;
+  border-color: black;
+  margin-top: 5%;
+}
+
+.articulo {
+  margin-top: 10px;
+}
+
+a:link {
+  color: black;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: 700;
+  margin-left: 25%;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
 }
