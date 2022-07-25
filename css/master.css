@@ -31,6 +31,19 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
+.contenedor-documentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .cuerpo {
   background-color: rgb(38, 74, 122, 0.8);
   border-style: solid;
@@ -39,6 +52,10 @@ h3 {
   margin-top: 5%;
   padding-bottom: 3%;
   margin-bottom: 3%;
+}
+
+.documentacion {
+  width: 30%;
 }
 
 .articulo {
@@ -73,6 +90,7 @@ a:active {
   position: sticky;
   top: 120px;
   margin-left: 30px;
+  width: 100px;
 }
 
 #lista-de-front,
@@ -81,7 +99,6 @@ a:active {
   margin-top: 12px;
   font-size: 30px;
   font-style: italic;
-  margin-left: 120px;
   color: white;
   text-align: center;
   background-color: transparent;
@@ -102,4 +119,10 @@ a:active {
 
 .boton-acceso-rapido:hover {
   background-color: rgb(19, 19, 79);
+}
+
+#lista-de-front:hover,
+#lista-de-diseño:hover,
+#lista-de-webapps:hover {
+  cursor: default;
 }

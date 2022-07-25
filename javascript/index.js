@@ -15,7 +15,10 @@ listaDeWebApps.innerHTML = generarListaFront("webapps");
 
 function generarListaFront(tipo) {
   let tipoLista = `lista-de-${tipo}`;
-  let listaCompletada = `<button id=${tipoLista}>Lista ${tipo}</button><br/>`;
+  let listaCompletada = `
+  <section class="contenedor-titulo">
+  
+  <button id=${tipoLista}>Lista ${tipo}</button></section>`;
   for (let pagina in dataBase) {
     if (dataBase[pagina].categorias[0] === tipo) {
       listaCompletada += `
