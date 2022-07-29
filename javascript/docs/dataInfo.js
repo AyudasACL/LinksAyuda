@@ -2,8 +2,8 @@
 // Modificado y adaptado por Javier Bagatoli 27/7
 export const datos = [
   {
-    nombre: "Imagenes gratis",
-    descripcion: "Imagenes con vectores 'gratis'",
+    nombre: "Imágenes gratis",
+    descripcion: "Imágenes con vectores 'gratis'",
     link: "https://www.freepik.es",
     linkNombre: "Freepik",
     categorias: ["front"],
@@ -80,7 +80,7 @@ export const datos = [
   },
   {
     nombre: "Esquemas de páginas pre armadas responsivas",
-    descripcion: "Genera tus propias paginas genericas",
+    descripcion: "Genera tus propias paginas genéricas",
     link: "https://html5up.net/",
     linkNombre: "html5up.net",
     categorias: ["front"],
@@ -108,13 +108,13 @@ export const datos = [
   },
   {
     nombre: "Editor de código Online",
-    descripcion: "Prueba tu codigo en linea",
+    descripcion: "Prueba tu código en linea",
     link: "https://codepen.io",
     linkNombre: "codepen.io",
     categorias: ["webapps"],
   },
   {
-    nombre: "status de peticion",
+    nombre: "status de petición",
     descripcion: "Guia para aprender estatus de peticiones",
     link: "https://http.cat",
     linkNombre: "http.cat",
